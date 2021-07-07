@@ -1,6 +1,6 @@
 package com.syncretis.handler;
 
-import com.syncretis.Model.Material;
+import com.syncretis.model.Material;
 import com.syncretis.productContainer.RecyclableMaterialContainer;
 
 public class PlasticHandler extends Handler{

@@ -1,17 +1,17 @@
 package com.syncretis.resolver;
 
-import com.syncretis.Model.Material;
+import com.syncretis.model.Material;
 import com.syncretis.handler.Handler;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class HandlerResolver implements Resolver{
+public class ResolverImpl implements Resolver{
 
     private final Map<Class<? extends Material>, Handler<? extends Material>> handlerMap;
 
-    public HandlerResolver(List<Handler<? extends Material>> handlers) {
+    public ResolverImpl(List<Handler<? extends Material>> handlers) {
         this.handlerMap = new HashMap<>();
         for(Handler<? extends Material> handler : handlers) {
             handlerMap.put(handler.getType(), handler);

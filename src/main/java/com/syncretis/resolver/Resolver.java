@@ -1,6 +1,6 @@
 package com.syncretis.resolver;
 
-import com.syncretis.Model.Material;
+import com.syncretis.model.Material;
 import com.syncretis.handler.Handler;
 
 public interface Resolver {

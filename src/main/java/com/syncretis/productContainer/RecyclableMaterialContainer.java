@@ -1,6 +1,6 @@
 package com.syncretis.productContainer;
 
-import com.syncretis.Model.Material;
+import com.syncretis.model.Material;
 
 
 public class RecyclableMaterialContainer<MATERIAL extends Material> extends Container {

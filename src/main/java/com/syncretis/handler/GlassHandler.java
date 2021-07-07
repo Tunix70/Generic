@@ -1,13 +1,12 @@
 package com.syncretis.handler;
 
-import com.syncretis.Model.Material;
-import com.syncretis.productContainer.ProductContainer;
+import com.syncretis.model.Material;
 import com.syncretis.productContainer.RecyclableMaterialContainer;
 
-public class PaperHandler extends Handler{
+public class GlassHandler extends Handler{
     RecyclableMaterialContainer<? extends Material> container;
 
-    public PaperHandler(RecyclableMaterialContainer<? extends Material> container) {
+    public GlassHandler(RecyclableMaterialContainer<? extends Material> container) {
         this.container = container;
     }
 

@@ -1,4 +1,4 @@
-package com.syncretis.Model;
+package com.syncretis.model;
 
 public class Paper  extends Material{
 }
